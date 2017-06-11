@@ -1,0 +1,30 @@
+{
+  "name": "json-stream-to-object",
+  "description": "Parse a JSON stream into an object",
+  "repository": "yoshuawuyts/json-stream-to-object",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps && node test"
+  },
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "fast-json-parse": "^1.0.2",
+    "is-stream": "^1.1.0",
+    "pump": "^1.0.2"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.8.0",
+    "get-server-port": "^1.0.0",
+    "spok": "^0.8.1",
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "stream",
+    "parse",
+    "json"
+  ],
+  "license": "MIT"
+}
