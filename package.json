@@ -2,7 +2,7 @@
   "name": "json-stream-to-object",
   "description": "Parse a JSON stream into an object",
   "repository": "yoshuawuyts/json-stream-to-object",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
     "start": "node .",
