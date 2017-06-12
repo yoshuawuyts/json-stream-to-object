@@ -18,8 +18,10 @@ http.createServer(function (req, res) {
 ```
 
 ## API
-### `toObject(stream, cb(err, object))`
-Parse a stream of JSON to an object.
+### `toObject(stream, [opts], cb(err, object))`
+Parse a stream of JSON to an object. Opts can be:
+- __opts.limit:__ set a max size limit for the incoming data. Useful to prevent
+  services getting DDoSed
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)

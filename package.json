@@ -9,10 +9,10 @@
     "test": "standard && npm run deps && node test"
   },
   "dependencies": {
-    "concat-stream": "^1.6.0",
+    "end-of-stream": "^1.4.0",
     "fast-json-parse": "^1.0.2",
     "is-stream": "^1.1.0",
-    "pump": "^1.0.2"
+    "request-payload": "^1.0.1"
   },
   "devDependencies": {
     "dependency-check": "^2.8.0",
